@@ -1,0 +1,44 @@
+<nav class="fixed z-10 backdrop-blur-md bg-night/80 text-gray-200 w-screen md:mx-auto pt-6 pb-10 ">
+  <div class="flex md:justify-around justify-between items-center">
+    <a class="flex items-center pl-8">
+      <i class="text-2xl fa-solid fa-laptop-code"></i>
+      <h1 class="tracking-wider font-bold text-xl pl-4 transition duration-300 text-sky-400 hover:text-sky-300 cursor-pointer">Dfrrer27</h1>
+    </a>
+
+    <div class="md:hidden block absolute top-4 right-8 fixed">
+      <button (click)="changeNav()" aria-label="navigation" type="button" class="md:hidden text-gray-200 transition duration-300 focus:outline-none focus:text-white hover:text-white"><i class="fas fa-bars text-3xl"></i></button>
+    </div>
+
+    <div class="hidden md:flex">
+      <ul class="hidden md:flex">
+        <li *ngFor="let item of menuItems; let i = index"  class="text-lg pr-8">
+          <a [routerLink]="item.path" routerLinkActive="underline decoration-4 decoration-sky-300 text-white opacity-95"
+             class="transition duration-300 opacity-50 hover:opacity-75 font-medium" style="text-underline-offset: 8px;">
+            {{ item.title }}
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hidden md:flex">
+      <a href="#"><i class="fa-brands fa-github text-2xl pr-8 transition duration-300 focus:text-sky-400 hover:text-sky-300"></i></a>
+    </div>
+  </div>
+
+</nav>
+
+<!--menu-mobile-->
+<div [ngClass]="{ 'open': isNavOpen }" class="animation-menu show fixed hidden z-10 backdrop-blur-md bg-night/80 flex w-full mt-20 text-center">
+  <div class="flex flex-col justify-center items-center w-full">
+    <a
+      *ngFor="let item of menuItems; let i = index"
+      [routerLink]="item.path"
+      (click)="changeNav()"
+      routerLinkActive="underline decoration-4 decoration-sky-300 text-white opacity-95"
+      class="block text-gray-200 cursor-pointer py-3 opacity-50 transition duration-300 focus:outline-none hover:opacity-75 font-medium"
+      style="text-underline-offset: 8px;">
+      {{ item.title }}
+    </a>
+  </div>
+</div>
+

@@ -1,0 +1,38 @@
+.container-block {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-block {
+  width: 31%;
+  height: 15vh;
+  margin: 5px;
+  opacity: 0;
+  will-change: transform;
+}
+
+.card {
+  opacity: 0;
+  will-change: transform;
+}
+
+.item-tech:hover .img-tech {
+  transform: scale(1.3);
+}
+.img-tech, .tech {
+  transition: transform .3s ease;
+}
+
+.item-tech:hover .tech {
+  transform: translateY(-12px);
+}
+
+.item-tech:hover .status-tech {
+  opacity: 1;
+}

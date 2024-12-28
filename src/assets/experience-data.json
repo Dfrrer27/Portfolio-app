@@ -1,0 +1,16 @@
+[
+  {
+    "date": "02/08/2024 - 22/10/2024",
+    "title": "Proyecto Freelance IrisTechnology",
+    "workplace": "Practicante de Diseñador y Programador",
+    "paragraph": "Trabaje en dicho proyecto para diferentes funciones en lo que respecta para la vista de usuario, el proyecto fue hecho con el propósito de proponérselo a diferentes clientes e interesados que quieran dicha plataforma.",
+    "technology": ["Next.js", "React Material UI", "Plantilla Sneat", "PeerJS", "ApexChartJS"]
+  },
+  {
+    "date": "08/01/2024 - 08/03/2024",
+    "title": "Landing Page para la institución Cidech",
+    "workplace": "Practicante de Diseñador y Programador",
+    "paragraph": "Diseñar y programar 2 páginas de destino (landing page) para atraer a los visitantes y convertirlos en clientes potenciales.",
+    "technology": ["Html", "Css", "JavaScript", "Bootstrap"]
+  }
+]

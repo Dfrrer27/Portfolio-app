@@ -1,0 +1,38 @@
+[
+  {
+    "img": "assets/img/personal-website.png",
+    "title": "Sitio Web Personal",
+    "paragraph": "Mi sitio web personal, he creado este sitio web para mostrar mi perfil, habilidades y proyectos que he realizado a lo largo del tiempo.",
+    "technology": "Angular, Tailwind CSS, Gsap, TypedJS, SCSS"
+  },
+  {
+    "img": "assets/img/angular-material.png",
+    "title": "Crud con Angular Material",
+    "paragraph": "Creación y maquetación de un Sitio Web con enfoque más a lo visual con funciones que se asemejan a las de operaciones CRUD.",
+    "technology": "Angular, Angular Material, SCSS"
+  },
+  {
+    "img": "assets/img/spotify-app.PNG",
+    "title": "SpotifyApp",
+    "paragraph": "Creación y maquetación de un Sitio Web con extracción de la Api de Spotify que cumple las funciones de listar, buscar y poder escuchar una parte de las músicas.",
+    "technology": "Angular, Bootstrap, Consumo de APIs, SCSS"
+  },
+  {
+    "img": "assets/img/talktec-app.png",
+    "title": "TalkTecApp",
+    "paragraph": "Desarrollo de una Aplicación de tipo red social mediante el framework React.js para la capa de interfaz y Django para la implementación lógica, garantizando una integración eficiente y escalabilidad, además de seguir metodologías Agiles.",
+    "technology": "React, Django, Consumo de APIs, SCSS"
+  },
+  {
+    "img": "assets/img/SPA-heroes.PNG",
+    "title": "SPA de Héroes",
+    "paragraph": "Creación y maquetación de una página web con Estructura HTML5, decoración con CSS, uso de TypeScript y de Angular para la reutilización de componentes y extracción de Apis.",
+    "technology": "Angular, Consumo de APIs, CSS"
+  },
+  {
+    "img": "assets/img/inkapathways-app.png",
+    "title": "InkaPathways",
+    "paragraph": "Desarrollo de un sitio web junto con un compañero, para los turistas que quieran viajar, utilizando la inteligencia artificial para dar respuestas predictivas a los usuarios para al final generarles un tríptico.",
+    "technology": "Angular, Bootstrap, Angular Material, Consumo de APIs, SCSS"
+  }
+]
