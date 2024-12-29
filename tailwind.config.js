@@ -9,7 +9,7 @@ module.exports = {
         '90vh': '90vh',
       },
       boxShadow: {
-        'all': '0 0 100px 0 rgba(0, 0, 0, 0.3)',
+        'all': '0 0 73px -9px rgba(0, 0, 0, 0.3)',
       },
       colors: {
         'night/30': 'rgb(18 18 18 / 30%)',
