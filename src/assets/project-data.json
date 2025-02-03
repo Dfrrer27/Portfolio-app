@@ -1,15 +1,21 @@
 [
   {
+    "img": "assets/img/amplifyG1-app.png",
+    "title": "Crud con AWS y Amplify",
+    "paragraph": "Creación de una página web, con autenticación de usuarios utilizando amplify gen 1 y servicios aws para el crud, con angular para el cliente y PrimeNG para los estilos.",
+    "technology": "Angular, SCSS, Consumo de Apis, PrimeNG, Amplify, Cognito, Lambda, Api Gateway, DynamoDB"
+  },
+  {
+    "img": "assets/img/tasks-app.png",
+    "title": "Sitio de Asignación de Tareas",
+    "paragraph": "Creación y maquetación de un Sitio Web de gestión de tareas con autenticación de usuarios y roles de usuarios, el sistema ayuda a asignar y gestionar tareas de manera eficiente, con capacidades para asignar tareas a un usuario o a usuarios.",
+    "technology": "Angular, .Net Core ASP, Angular Material, Tailwind CSS, JWTAuthentication, SQL Server"
+  },
+  {
     "img": "assets/img/personal-website.png",
     "title": "Sitio Web Personal",
     "paragraph": "Mi sitio web personal, he creado este sitio web para mostrar mi perfil, habilidades y proyectos que he realizado a lo largo del tiempo.",
     "technology": "Angular, Tailwind CSS, Gsap, TypedJS, SCSS"
-  },
-  {
-    "img": "assets/img/angular-material.png",
-    "title": "Crud con Angular Material",
-    "paragraph": "Creación y maquetación de un Sitio Web con enfoque más a lo visual con funciones que se asemejan a las de operaciones CRUD.",
-    "technology": "Angular, Angular Material, SCSS"
   },
   {
     "img": "assets/img/spotify-app.PNG",
